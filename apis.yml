@@ -1,8 +1,23 @@
 aid: imedeon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/imedeon.png
 name: iMedeon
-description: 'iMedeon is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'iMedeon, Inc. was a mobile workforce management software company based in Atlanta, Georgia,
+  providing wireless web applications to optimize scheduling, routing, and the dispatch and management of
+  mobile field workforces (the iM:Work suite). It was acquired by ViryaNet Ltd. in February 2002 (later
+  rolled into Verisae) and no longer operates independently. The domain imedeon.com does not resolve and
+  there is no live website, developer portal, or API surface. Retained in the API Evangelist network as a
+  defunct/legacy company profile; there is nothing to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/imedeon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +25,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: 'Acquired by ViryaNet (Feb 2002), later Verisae; imedeon.com no longer resolves; no live
+  web/API surface as of 2026-07-19. Note: original stub sector tag "government" was an Insight Partners
+  GovTech-portfolio artifact — iMedeon was a mobile workforce management vendor, not a government-software company.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Government
+- Workforce Management
+- Mobile Workforce
+- Field Service Management
+- Scheduling
+- Dispatch
+- Legacy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
