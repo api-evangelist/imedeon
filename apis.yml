@@ -29,7 +29,7 @@ x-status: defunct
 x-status-reason: 'Acquired by ViryaNet (Feb 2002), later Verisae; imedeon.com no longer resolves; no live
   web/API surface as of 2026-07-19. Note: original stub sector tag "government" was an Insight Partners
   GovTech-portfolio artifact — iMedeon was a mobile workforce management vendor, not a government-software company.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
